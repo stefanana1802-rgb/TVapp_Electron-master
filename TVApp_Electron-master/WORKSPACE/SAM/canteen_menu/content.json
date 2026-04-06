@@ -1,0 +1,39 @@
+{
+  "canteenLabelMeniu": "Meniu",
+  "canteenLabelProgram": "cantina_",
+  "canteenMenuLocation": "https://aumovio.sharepoint.com/teams/cs_10004826/Shared%20Documents/Forms/AllItems.aspx?id=%2Fteams%2Fcs%5F10004826%2FShared%20Documents%2FCANTINA%2FMeniu&viewid=df7fc795%2D97a9%2D43b3%2Da54c%2D32f02b56fe07&sharingv2=true&fromShare=true&at=9&FolderCTID=0x012000FAFE123522BE074896F2E3615BDBCD7F",
+  "feedbackText": "Feedback/Issues/Improv",
+  "feedbackUrl": "https://forms.microsoft.com/e/FNfddKEejW?origin=lprLink",
+  "menuPdfItems": [
+    {
+      "path": "pdfs/Meniu Conti 9-15 FEB_bfdc99eb.pdf",
+      "range": "all"
+    },
+    {
+      "path": "pdfs/2025_Cantina_Continental_new_2d7b8659.pdf",
+      "range": "all"
+    }
+  ],
+  "menuPdfUrls": [
+    "https://pdfobject.com/pdf/sample.pdf",
+    "https://ontheline.trincoll.edu/images/bookdown/sample-local-pdf.pdf"
+  ],
+  "only_delivery": false,
+  "restaurant": {
+    "name": "Restaurant Jacob Grillhouse",
+    "tagline": "4.6 ⭐ · €€ - medium"
+  },
+  "restaurantLastUpdated": "2026-03-12",
+  "restaurantLocation": "Sibiu",
+  "slots": [
+    {
+      "time": "10:30",
+      "duration": 10
+    },
+    {
+      "time": "11:30",
+      "duration": 10
+    }
+  ],
+  "feedbackQrPath": "photos/download_1_a89e37de.png"
+}

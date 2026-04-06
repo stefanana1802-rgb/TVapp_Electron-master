@@ -1,0 +1,28 @@
+{
+  "slides": [
+    {
+      "id": "slide-1",
+      "type": "web_url",
+      "src": "https://www.aumovio.com",
+      "duration": 15,
+      "title": "Aumovio",
+      "subtitle": "Welcome"
+    },
+    {
+      "id": "slide-2",
+      "type": "image",
+      "src": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920",
+      "duration": 10,
+      "title": "Modern workspace",
+      "subtitle": "Stay tuned for updates"
+    },
+    {
+      "id": "slide-3",
+      "type": "web_url",
+      "src": "https://example.com",
+      "duration": 12,
+      "title": "Placeholder",
+      "subtitle": "Replace with your content URL"
+    }
+  ]
+}

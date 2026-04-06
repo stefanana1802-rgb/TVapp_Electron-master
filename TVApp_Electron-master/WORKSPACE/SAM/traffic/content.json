@@ -1,0 +1,14 @@
+{
+  "origin": "Aumovio Sibiu - Strada Salzburg",
+  "destinations": [
+    {
+      "destination": "Centru Sibiu"
+    },
+    {
+      "destination": "Doamna Stanca Sibiu"
+    },
+    {
+      "destination": "Vasile Aron Sibiu"
+    }
+  ]
+}

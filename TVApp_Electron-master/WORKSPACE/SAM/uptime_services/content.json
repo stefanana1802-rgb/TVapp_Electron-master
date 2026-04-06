@@ -1,0 +1,17 @@
+{
+  "cooldownSeconds": 120,
+  "services": [
+    {
+      "id": "github",
+      "name": "GitHub",
+      "statusUrl": "https://github.com/",
+      "up": true
+    },
+    {
+      "id": "jira",
+      "name": "Jira",
+      "statusUrl": "https://githuddb.com/",
+      "up": true
+    }
+  ]
+}

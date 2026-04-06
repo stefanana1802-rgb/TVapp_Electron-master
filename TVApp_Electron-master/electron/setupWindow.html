@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pregătire workspace – Aumovio TV</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(145deg, #1a1a2e 0%, #16213e 100%);
+      color: #e8e8e8;
+      padding: 24px;
+    }
+    .card {
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 16px;
+      padding: 32px 40px;
+      min-width: 360px;
+      max-width: 420px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin: 0 0 8px;
+      color: #fff;
+    }
+    .sub {
+      font-size: 0.875rem;
+      color: #94a3b8;
+      margin-bottom: 24px;
+    }
+    #status {
+      font-size: 0.9375rem;
+      color: #cbd5e1;
+      margin-bottom: 20px;
+      min-height: 1.5em;
+    }
+    .progress-wrap {
+      width: 100%;
+      height: 6px;
+      background: rgba(255,255,255,0.1);
+      border-radius: 3px;
+      overflow: hidden;
+      margin-bottom: 24px;
+    }
+    .progress-wrap.indeterminate .bar {
+      width: 40%;
+      animation: indeterminate 1.2s ease-in-out infinite;
+    }
+    .progress-wrap.done .bar {
+      width: 100%;
+      animation: none;
+    }
+    .progress-wrap.hidden {
+      display: none;
+    }
+    .bar {
+      height: 100%;
+      background: linear-gradient(90deg, #6366f1, #8b5cf6);
+      border-radius: 3px;
+      transition: width 0.2s ease;
+    }
+    @keyframes indeterminate {
+      0% { transform: translateX(-100%); }
+      100% { transform: translateX(350%); }
+    }
+    #btnOk {
+      display: none;
+      padding: 10px 24px;
+      font-size: 0.9375rem;
+      font-weight: 500;
+      color: #1a1a2e;
+      background: linear-gradient(135deg, #818cf8, #a78bfa);
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: opacity 0.15s, transform 0.1s;
+    }
+    #btnOk:hover {
+      opacity: 0.95;
+      transform: scale(1.02);
+    }
+    #btnOk:active {
+      transform: scale(0.98);
+    }
+    #btnOk.visible {
+      display: inline-block;
+    }
+    .error {
+      color: #f87171;
+      font-size: 0.875rem;
+      margin-bottom: 16px;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Pregătire workspace</h1>
+    <p class="sub">Aumovio TV App</p>
+    <p id="status">Se verifică repo-ul…</p>
+    <div class="progress-wrap indeterminate" id="progressWrap">
+      <div class="bar" id="progressBar"></div>
+    </div>
+    <p id="errorMessage" class="error" style="display: none;"></p>
+    <button type="button" id="btnOk">OK – Pornește aplicația</button>
+  </div>
+  <script>
+    (function () {
+      const statusEl = document.getElementById('status');
+      const progressWrap = document.getElementById('progressWrap');
+      const progressBar = document.getElementById('progressBar');
+      const errorMessage = document.getElementById('errorMessage');
+      const btnOk = document.getElementById('btnOk');
+
+      const messages = {
+        check: 'Se verifică repo-ul…',
+        pull: 'Repo există. Se face pull…',
+        'pull-done': 'Actualizare finalizată. Pornire…',
+        clone: 'Se clonează repo-ul (primul run)…',
+        'clone-done': 'Clone finalizat. Apasă OK pentru a porni aplicația.',
+        'no-url': 'Nu există URL pentru clone. Apasă OK pentru a continua.',
+        error: 'A apărut o eroare.'
+      };
+
+      function showOk() {
+        progressWrap.classList.remove('indeterminate');
+        progressWrap.classList.add('done');
+        btnOk.classList.add('visible');
+      }
+
+      function showError(msg) {
+        errorMessage.textContent = msg || messages.error;
+        errorMessage.style.display = 'block';
+        progressWrap.classList.add('hidden');
+        showOk();
+      }
+
+      if (window.api && window.api.onSetupPhase) {
+        window.api.onSetupPhase(function (data) {
+          const phase = data && data.phase;
+          const msg = data && data.message;
+          if (phase === 'error') {
+            showError(msg);
+            return;
+          }
+          statusEl.textContent = msg || messages[phase] || statusEl.textContent;
+          if (phase === 'pull-done') {
+            progressWrap.classList.remove('indeterminate');
+            progressWrap.classList.add('done');
+            // no OK – main will close this window soon
+          }
+          if (phase === 'clone-done' || phase === 'no-url') {
+            showOk();
+          }
+        });
+      }
+
+      if (btnOk && window.api && window.api.setupFinished) {
+        btnOk.addEventListener('click', function () {
+          window.api.setupFinished();
+        });
+      }
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "cooldownSeconds": 400,
+  "rooms": [
+    {
+      "name": "Room A"
+    },
+    {
+      "name": "Room B"
+    },
+    {
+      "name": "Room C"
+    }
+  ],
+  "image": "photos/aumovio-concept-car-front-view_stage-desktop_c410ea47.png"
+}

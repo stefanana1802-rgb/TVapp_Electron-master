@@ -1,0 +1,25 @@
+{
+  "people": [
+    {
+      "name": "Persoana Test",
+      "birthday": "2026-03-05",
+      "newColleague": true,
+      "workStartDate": "2020-03-03"
+    }
+  ],
+  "employeeOfMonth": [],
+  "jobOpenings": [
+    {
+      "title": "Job exemplu",
+      "team": "TEST"
+    }
+  ],
+  "events": [
+    {
+      "name": "Tech Talk: Security",
+      "date": "2026-03-31",
+      "time": "14:00"
+    }
+  ],
+  "cooldownSeconds": 20
+}

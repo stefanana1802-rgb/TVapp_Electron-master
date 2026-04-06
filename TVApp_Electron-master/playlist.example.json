@@ -1,0 +1,14 @@
+{
+  "slides": [
+    {"id": "slide-1", "type": "image", "src": "./content/assets/welcome.jpg", "duration": 10, "title": "Welcome", "subtitle": "Stay tuned"},
+    {"id": "slide-2", "type": "video", "src": "./content/assets/promo.mp4", "duration": 20, "title": "Video"},
+    {"id": "slide-3", "type": "web_url", "src": "https://app.powerbi.com/view?r=EXAMPLE", "duration": 30, "title": "Dashboard"},
+    {"id": "slide-4", "type": "pdf", "src": "workspace://SAM/docs/guide.pdf", "duration": 15, "title": "PDF"},
+    {"id": "slide-5", "type": "pptx", "src": "https://example.com/presentation.pptx", "duration": 30, "title": "Presentation"},
+    {"id": "slide-5b", "type": "word", "src": "https://example.com/document.docx", "duration": 20, "title": "Word"},
+    {"id": "slide-5c", "type": "excel", "src": "https://example.com/sheet.xlsx", "duration": 20, "title": "Excel"},
+    {"id": "slide-7", "src": "https://vimeo.com/123456789", "duration": 20, "title": "Vimeo"},
+    {"id": "slide-8", "type": "hls", "src": "https://example.com/stream.m3u8", "duration": 60, "title": "HLS stream"},
+    {"id": "slide-9", "type": "web_action", "src": "http://example:3000/", "duration": 90, "title": "Web Action", "webActionFit": 250, "webActionApplyLoginScript": false, "webActionAutoScroll": false, "webActionScripts": ["#my-button"]}
+  ]
+}

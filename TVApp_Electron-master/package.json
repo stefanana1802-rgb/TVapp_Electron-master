@@ -1,0 +1,98 @@
+{
+  "name": "AumovioTVApp",
+  "version": "1.0.12",
+  "description": "Digital signage app using Electron, Vite, React, Tailwind, and simple-git.",
+  "keywords": [
+    "digital-signage",
+    "tv",
+    "electron",
+    "aumovio"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github-ct.int.automotive-wan.com/uia93672/TVApp_Electron.git"
+  },
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "concurrently -k \"npm:dev:renderer\" \"npm:dev:electron\"",
+    "dev:renderer": "npx vite",
+    "dev:electron": "wait-on http://localhost:5174 && set USE_DEV_SERVER=1&& electron .",
+    "build": "npx vite build",
+    "start": "npm run build && electron .",
+    "dist": "npm run build && electron-builder",
+    "dist:win": "npm run icons && npm run build && electron-builder --win",
+    "version:patch": "node scripts/bump-version.js patch",
+    "version:minor": "node scripts/bump-version.js minor",
+    "version:major": "node scripts/bump-version.js major",
+    "release:github": "node scripts/release-to-github.js",
+    "release": "npm run version:patch && npm run dist:win && npm run release:github",
+    "release:full": "node scripts/full-release.js",
+    "icons": "node scripts/generate-icons.js"
+  },
+  "dependencies": {
+    "@azure/msal-node": "^2.16.3",
+    "dotenv": "^16.4.5",
+    "electron-updater": "^6.3.9",
+    "hls.js": "^1.6.15",
+    "pdf-to-img": "^5.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0",
+    "simple-git": "^3.27.0",
+    "systeminformation": "^5.31.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.0",
+    "autoprefixer": "^10.4.19",
+    "concurrently": "^9.0.0",
+    "electron": "^40.4.1",
+    "electron-builder": "^26.7.0",
+    "png-to-ico": "^3.0.1",
+    "postcss": "^8.4.38",
+    "sharp": "^0.33.5",
+    "tailwindcss": "^3.4.4",
+    "vite": "^7.3.1",
+    "wait-on": "^7.2.0"
+  },
+  "build": {
+    "appId": "com.aumovio.tvapp",
+    "productName": "AumovioTVApp",
+    "publish": {
+      "provider": "github",
+      "host": "github-ct.int.automotive-wan.com",
+      "owner": "uia93672",
+      "repo": "TVApp_Electron"
+    },
+    "directories": {
+      "output": "release"
+    },
+    "asarUnpack": [
+      "electron/scripts/**"
+    ],
+    "files": [
+      "dist/**/*",
+      "electron/**/*",
+      "content/**/*",
+      "WORKSPACE/**/*",
+      "version.json",
+      "package.json"
+    ],
+    "win": {
+      "icon": "electron/icon.ico",
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "signAndEditExecutable": false
+    },
+    "nsis": {
+      "oneClick": true,
+      "perMachine": true,
+      "allowToChangeInstallationDirectory": false
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "cooldownSeconds": 20,
+  "items": [
+    {
+      "text": "Exemplu: TownHall <b style=\"color: rgb(43, 0, 255);\">JOI la ora 15:00</b>. Prezenta obligatorie.",
+      "color": "#ff0000",
+      "bold": true
+    },
+    {
+      "text": "Test: Testare alarma de incendiu azi la ora 14:00.&nbsp;",
+      "color": "#000000",
+      "bold": false
+    }
+  ]
+}

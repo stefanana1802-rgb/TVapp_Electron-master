@@ -1,0 +1,13 @@
+node_modules
+dist
+release
+*.log
+.env
+.env.local
+
+# Runtime-generated canteen artifacts (do not version)
+WORKSPACE/**/canteen_menu/pdfs/
+WORKSPACE/**/canteen_menu/menu_pdf/
+
+# Local runtime status cache
+WORKSPACE/restaurant_api_status.json

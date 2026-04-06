@@ -1,0 +1,82 @@
+{
+  "infoBlocks": [
+    {
+      "id": "customer_feedback",
+      "kind": "pair",
+      "title": "Customer feedback - test",
+      "items": [
+        {
+          "text": "BMWs",
+          "text2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.s"
+        }
+      ],
+      "pairMode": "carousel"
+    },
+    {
+      "id": "quote_of_day",
+      "kind": "single",
+      "title": "Quote of the Days!",
+      "items": [
+        {
+          "section": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        }
+      ],
+      "singleMode": "hash"
+    },
+    {
+      "id": "did_you_know",
+      "kind": "single",
+      "title": "Did you know !",
+      "items": [
+        {
+          "section": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ind"
+        }
+      ],
+      "singleMode": "day"
+    },
+    {
+      "id": "word_of_day",
+      "kind": "pair",
+      "title": "Word of the Day",
+      "items": [
+        {
+          "text": "OEM",
+          "text2": "An Original Equipment Manufacturer (OEM) is a company that produces parts or equipment that are then used and sold by another company under its own brand."
+        }
+      ],
+      "pairMode": "daily"
+    },
+    {
+      "id": "reminder_healthy",
+      "kind": "multi",
+      "title": "Stay healthy",
+      "items": [
+        {
+          "title": "Take a break",
+          "text": "Step away from your screen every 1 hour. Short breaks reduce eye strain and improve focus."
+        },
+        {
+          "title": "Stay hydrated",
+          "text": "Keep a bottle of water at your desk. Hydration supports concentration and overall well-being."
+        },
+        {
+          "title": "Simple stretching",
+          "text": "A few minutes of stretching keeps muscles relaxed and helps prevent tension. Your body will thank you."
+        }
+      ]
+    },
+    {
+      "id": "b_mn136vx8_8kvjvyh1",
+      "kind": "pair",
+      "title": "Secțiune nouă",
+      "items": [
+        {
+          "text": "test sectiune",
+          "text2": "test sectiune"
+        }
+      ],
+      "pairMode": "carousel"
+    }
+  ],
+  "cooldownSeconds": 10
+}

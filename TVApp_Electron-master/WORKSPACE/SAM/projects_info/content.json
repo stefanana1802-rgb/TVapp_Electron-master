@@ -1,0 +1,19 @@
+{
+  "cooldownSeconds": 120,
+  "projects": [
+    {
+      "name": "BMW",
+      "start": "2025-01-15",
+      "end": "2025-06-30",
+      "status": "normal",
+      "icon": "photos/BMW.svg_af1a5800.png"
+    },
+    {
+      "name": "VW",
+      "start": "2023-01-15",
+      "end": "2024-06-30",
+      "status": "normal",
+      "icon": ""
+    }
+  ]
+}

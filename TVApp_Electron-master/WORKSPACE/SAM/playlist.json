@@ -1,0 +1,741 @@
+{
+  "slides": [
+    {
+      "converted": true,
+      "duration": 100,
+      "enabled": true,
+      "fillWidth": false,
+      "id": "slide-1774197613844",
+      "pageCount": 3,
+      "range": "all",
+      "src": "documents/Projects in quotation_9e294fca",
+      "subtitle": "",
+      "title": "",
+      "type": "pdf"
+    },
+    {
+      "duration": 200,
+      "enabled": true,
+      "id": "slide-1771500225003",
+      "powerBiFit": 100,
+      "src": "https://app.powerbi.com/groups/me/apps/2bbc31c1-7a76-4c57-a3b7-dd97762bb0ed/reports/56849349-34be-4ef8-b05e-0f13846af763/4f692d12b4a02757ab64?ctid=3bd97919-57c3-48d3-9e9a-8e4c01614a8f&experience=power-bi",
+      "subtitle": "",
+      "title": "",
+      "type": "powerbi"
+    },
+    {
+      "duration": 250,
+      "enabled": true,
+      "id": "slide-1774185284692",
+      "src": "http://veas933:3000/release/next",
+      "subtitle": "",
+      "title": "",
+      "type": "web_action",
+      "webActionApplyLoginScript": false,
+      "webActionAutoScroll": true,
+      "webActionFit": 100,
+      "webActionHardLoadEnabled": true,
+      "webActionHardLoadSeconds": 8,
+      "webActionScripts": [
+        "<label for=\"location7\">CAS VES</label>"
+      ]
+    },
+    {
+      "duration": 250,
+      "enabled": true,
+      "id": "slide-1774185335838",
+      "src": "http://veas933:3000/release/current",
+      "subtitle": "",
+      "title": "",
+      "type": "web_action",
+      "webActionApplyLoginScript": false,
+      "webActionAutoScroll": true,
+      "webActionFit": 100,
+      "webActionHardLoadEnabled": true,
+      "webActionHardLoadSeconds": 8,
+      "webActionScripts": [
+        "<label for=\"location7\">CAS VES</label>"
+      ]
+    },
+    {
+      "duration": 200,
+      "enabled": true,
+      "id": "slide-1774193311867",
+      "powerBiApplyLoginScript": true,
+      "powerBiAutoScroll": true,
+      "powerBiFit": 100,
+      "src": "https://app.powerbi.com/groups/me/apps/2bbc31c1-7a76-4c57-a3b7-dd97762bb0ed/reports/56849349-34be-4ef8-b05e-0f13846af763/ReportSection50d2fcf507309684b808?ctid=3bd97919-57c3-48d3-9e9a-8e4c01614a8f&experience=power-bi",
+      "subtitle": "",
+      "title": "",
+      "type": "powerbi"
+    },
+    {
+      "converted": true,
+      "duration": 30,
+      "enabled": true,
+      "fillWidth": false,
+      "id": "slide-1774197596761",
+      "pageCount": 41,
+      "range": "all",
+      "src": "documents/2026_03_ASC Standard Presentation_be6545c4",
+      "subtitle": "",
+      "title": "",
+      "type": "pptx"
+    },
+    {
+      "duration": 660,
+      "enabled": true,
+      "flightboard": {
+        "finalized": true,
+        "projectsUrl": "https://flightboard-query-prod.cmo.aws.automotive.cloud/rest/projects",
+        "sections": [
+          {
+            "branch": "cust-release/ms71/002-bmw-mkc2-baseline",
+            "flavor": "AC3",
+            "generatedUrls": [
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=BMW_AC3_cust-release%2Fms71%2F002-bmw-mkc2-baseline&lastx=4&steps=SIL&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=BMW_AC3_cust-release%2Fms71%2F002-bmw-mkc2-baseline&lastx=4&steps=SWCT&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=BMW_AC3_cust-release%2Fms71%2F002-bmw-mkc2-baseline&lastx=4&steps=QAC&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=BMW_AC3_cust-release%2Fms71%2F002-bmw-mkc2-baseline&lastx=4&steps=ECU&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=BMW_AC3_cust-release%2Fms71%2F002-bmw-mkc2-baseline&lastx=4&steps=CPI&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/wpp/#/flightBoard;projects=BMW_AC3_cust-release%2Fms71%2F002-bmw-mkc2-baseline;xHoursBack=150;isToDateNotNow=false"
+            ],
+            "id": "fb-1775126238878-ufob5x",
+            "lastX": 4,
+            "project": "BMW",
+            "selectedTypes": [
+              "SIL_full",
+              "SWCT_full",
+              "QAC_full",
+              "ECU_full",
+              "CPI_full"
+            ],
+            "simpleView": true,
+            "xHoursBack": 150
+          },
+          {
+            "branch": "cust-release/ms71/002-bmw-mkc2-baseline",
+            "flavor": "VDK",
+            "generatedUrls": [
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=BMW_VDK_cust-release%2Fms71%2F002-bmw-mkc2-baseline&lastx=4&steps=SWCT&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=BMW_VDK_cust-release%2Fms71%2F002-bmw-mkc2-baseline&lastx=4&steps=QAC&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=BMW_VDK_cust-release%2Fms71%2F002-bmw-mkc2-baseline&lastx=4&steps=ECU&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=BMW_VDK_cust-release%2Fms71%2F002-bmw-mkc2-baseline&lastx=4&steps=CPI&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/wpp/#/flightBoard;projects=BMW_VDK_cust-release%2Fms71%2F002-bmw-mkc2-baseline;xHoursBack=150;isToDateNotNow=false"
+            ],
+            "id": "fb-1775127084284-0iwrz7",
+            "lastX": 4,
+            "project": "BMW",
+            "selectedTypes": [
+              "SWCT_full",
+              "QAC_full",
+              "ECU_full",
+              "CPI_full"
+            ],
+            "simpleView": true,
+            "xHoursBack": 150
+          }
+        ],
+        "statusBase": "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php",
+        "urls": [
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=BMW_AC3_cust-release%2Fms71%2F002-bmw-mkc2-baseline&lastx=4&steps=SIL&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=BMW_AC3_cust-release%2Fms71%2F002-bmw-mkc2-baseline&lastx=4&steps=SWCT&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=BMW_AC3_cust-release%2Fms71%2F002-bmw-mkc2-baseline&lastx=4&steps=QAC&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=BMW_AC3_cust-release%2Fms71%2F002-bmw-mkc2-baseline&lastx=4&steps=ECU&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=BMW_AC3_cust-release%2Fms71%2F002-bmw-mkc2-baseline&lastx=4&steps=CPI&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/wpp/#/flightBoard;projects=BMW_AC3_cust-release%2Fms71%2F002-bmw-mkc2-baseline;xHoursBack=150;isToDateNotNow=false",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=BMW_VDK_cust-release%2Fms71%2F002-bmw-mkc2-baseline&lastx=4&steps=SWCT&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=BMW_VDK_cust-release%2Fms71%2F002-bmw-mkc2-baseline&lastx=4&steps=QAC&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=BMW_VDK_cust-release%2Fms71%2F002-bmw-mkc2-baseline&lastx=4&steps=ECU&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=BMW_VDK_cust-release%2Fms71%2F002-bmw-mkc2-baseline&lastx=4&steps=CPI&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/wpp/#/flightBoard;projects=BMW_VDK_cust-release%2Fms71%2F002-bmw-mkc2-baseline;xHoursBack=150;isToDateNotNow=false"
+        ]
+      },
+      "id": "slide-1775128439552",
+      "src": "",
+      "subtitle": "AC3, VDK - Nedelcu Irina - SWPM",
+      "title": "BMW",
+      "type": "flightboard"
+    },
+    {
+      "duration": 1440,
+      "enabled": true,
+      "flightboard": {
+        "finalized": true,
+        "projectsUrl": "https://flightboard-query-prod.cmo.aws.automotive.cloud/rest/projects",
+        "sections": [
+          {
+            "branch": "cust-release/ms110/003-vw-meb21-trunk",
+            "flavor": "MEE",
+            "generatedUrls": [
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VW_MEE_cust-release%2Fms110%2F003-vw-meb21-trunk&lastx=4&steps=SWCT&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VW_MEE_cust-release%2Fms110%2F003-vw-meb21-trunk&lastx=4&steps=QAC&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VW_MEE_cust-release%2Fms110%2F003-vw-meb21-trunk&lastx=4&steps=HIL&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VW_MEE_cust-release%2Fms110%2F003-vw-meb21-trunk&lastx=4&steps=SIL&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VW_MEE_cust-release%2Fms110%2F003-vw-meb21-trunk&lastx=4&steps=ECU&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VW_MEE_cust-release%2Fms110%2F003-vw-meb21-trunk&lastx=4&steps=CPI&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VW_MEE_cust-release%2Fms110%2F003-vw-meb21-trunk&lastx=4&steps=HIL&buildType=fast",
+              "https://asf42.cmo.aws.automotive.cloud/wpp/#/flightBoard;projects=VW_MEE_cust-release%2Fms110%2F003-vw-meb21-trunk;xHoursBack=150;isToDateNotNow=false"
+            ],
+            "id": "fb-1775128538790-wmy4es",
+            "lastX": 4,
+            "project": "VW",
+            "selectedTypes": [
+              "SWCT_full",
+              "QAC_full",
+              "HIL_full",
+              "SIL_full",
+              "ECU_full",
+              "CPI_full",
+              "HIL_fast"
+            ],
+            "simpleView": true,
+            "xHoursBack": 150
+          },
+          {
+            "branch": "cust-release/ms110/003-vw-meb21-trunk",
+            "flavor": "MEC",
+            "generatedUrls": [
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VW_MEC_cust-release%2Fms110%2F003-vw-meb21-trunk&lastx=4&steps=SWCT&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VW_MEC_cust-release%2Fms110%2F003-vw-meb21-trunk&lastx=4&steps=QAC&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VW_MEC_cust-release%2Fms110%2F003-vw-meb21-trunk&lastx=4&steps=HIL&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VW_MEC_cust-release%2Fms110%2F003-vw-meb21-trunk&lastx=4&steps=SIL&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VW_MEC_cust-release%2Fms110%2F003-vw-meb21-trunk&lastx=4&steps=ECU&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VW_MEC_cust-release%2Fms110%2F003-vw-meb21-trunk&lastx=4&steps=CPI&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VW_MEC_cust-release%2Fms110%2F003-vw-meb21-trunk&lastx=4&steps=HIL&buildType=fast",
+              "https://asf42.cmo.aws.automotive.cloud/wpp/#/flightBoard;projects=VW_MEC_cust-release%2Fms110%2F003-vw-meb21-trunk;xHoursBack=150;isToDateNotNow=false"
+            ],
+            "id": "fb-1775128731639-rx394x",
+            "lastX": 4,
+            "project": "VW",
+            "selectedTypes": [
+              "SWCT_full",
+              "QAC_full",
+              "HIL_full",
+              "SIL_full",
+              "ECU_full",
+              "CPI_full",
+              "HIL_fast"
+            ],
+            "simpleView": true,
+            "xHoursBack": 150
+          },
+          {
+            "branch": "cust-release/ms110/003-vw-meb21-trunk",
+            "flavor": "MED",
+            "generatedUrls": [
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VW_MED_cust-release%2Fms110%2F003-vw-meb21-trunk&lastx=4&steps=SWCT&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VW_MED_cust-release%2Fms110%2F003-vw-meb21-trunk&lastx=4&steps=QAC&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VW_MED_cust-release%2Fms110%2F003-vw-meb21-trunk&lastx=4&steps=HIL&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VW_MED_cust-release%2Fms110%2F003-vw-meb21-trunk&lastx=4&steps=SIL&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VW_MED_cust-release%2Fms110%2F003-vw-meb21-trunk&lastx=4&steps=ECU&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VW_MED_cust-release%2Fms110%2F003-vw-meb21-trunk&lastx=4&steps=CPI&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VW_MED_cust-release%2Fms110%2F003-vw-meb21-trunk&lastx=4&steps=HIL&buildType=fast",
+              "https://asf42.cmo.aws.automotive.cloud/wpp/#/flightBoard;projects=VW_MED_cust-release%2Fms110%2F003-vw-meb21-trunk;xHoursBack=150;isToDateNotNow=false"
+            ],
+            "id": "fb-1775128879402-wvu0np",
+            "lastX": 4,
+            "project": "VW",
+            "selectedTypes": [
+              "SWCT_full",
+              "QAC_full",
+              "HIL_full",
+              "SIL_full",
+              "ECU_full",
+              "CPI_full",
+              "HIL_fast"
+            ],
+            "simpleView": true,
+            "xHoursBack": 150
+          }
+        ],
+        "statusBase": "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php",
+        "urls": [
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VW_MEE_cust-release%2Fms110%2F003-vw-meb21-trunk&lastx=4&steps=SWCT&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VW_MEE_cust-release%2Fms110%2F003-vw-meb21-trunk&lastx=4&steps=QAC&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VW_MEE_cust-release%2Fms110%2F003-vw-meb21-trunk&lastx=4&steps=HIL&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VW_MEE_cust-release%2Fms110%2F003-vw-meb21-trunk&lastx=4&steps=SIL&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VW_MEE_cust-release%2Fms110%2F003-vw-meb21-trunk&lastx=4&steps=ECU&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VW_MEE_cust-release%2Fms110%2F003-vw-meb21-trunk&lastx=4&steps=CPI&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VW_MEE_cust-release%2Fms110%2F003-vw-meb21-trunk&lastx=4&steps=HIL&buildType=fast",
+          "https://asf42.cmo.aws.automotive.cloud/wpp/#/flightBoard;projects=VW_MEE_cust-release%2Fms110%2F003-vw-meb21-trunk;xHoursBack=150;isToDateNotNow=false",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VW_MEC_cust-release%2Fms110%2F003-vw-meb21-trunk&lastx=4&steps=SWCT&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VW_MEC_cust-release%2Fms110%2F003-vw-meb21-trunk&lastx=4&steps=QAC&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VW_MEC_cust-release%2Fms110%2F003-vw-meb21-trunk&lastx=4&steps=HIL&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VW_MEC_cust-release%2Fms110%2F003-vw-meb21-trunk&lastx=4&steps=SIL&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VW_MEC_cust-release%2Fms110%2F003-vw-meb21-trunk&lastx=4&steps=ECU&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VW_MEC_cust-release%2Fms110%2F003-vw-meb21-trunk&lastx=4&steps=CPI&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VW_MEC_cust-release%2Fms110%2F003-vw-meb21-trunk&lastx=4&steps=HIL&buildType=fast",
+          "https://asf42.cmo.aws.automotive.cloud/wpp/#/flightBoard;projects=VW_MEC_cust-release%2Fms110%2F003-vw-meb21-trunk;xHoursBack=150;isToDateNotNow=false",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VW_MED_cust-release%2Fms110%2F003-vw-meb21-trunk&lastx=4&steps=SWCT&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VW_MED_cust-release%2Fms110%2F003-vw-meb21-trunk&lastx=4&steps=QAC&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VW_MED_cust-release%2Fms110%2F003-vw-meb21-trunk&lastx=4&steps=HIL&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VW_MED_cust-release%2Fms110%2F003-vw-meb21-trunk&lastx=4&steps=SIL&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VW_MED_cust-release%2Fms110%2F003-vw-meb21-trunk&lastx=4&steps=ECU&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VW_MED_cust-release%2Fms110%2F003-vw-meb21-trunk&lastx=4&steps=CPI&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VW_MED_cust-release%2Fms110%2F003-vw-meb21-trunk&lastx=4&steps=HIL&buildType=fast",
+          "https://asf42.cmo.aws.automotive.cloud/wpp/#/flightBoard;projects=VW_MED_cust-release%2Fms110%2F003-vw-meb21-trunk;xHoursBack=150;isToDateNotNow=false"
+        ]
+      },
+      "id": "slide-1775128977492",
+      "src": "",
+      "subtitle": "MEE, MEC, MED - Cotarlan Bogdan-Andrei - SWPM",
+      "title": "VW MEB41",
+      "type": "flightboard"
+    },
+    {
+      "duration": 840,
+      "enabled": true,
+      "flightboard": {
+        "finalized": true,
+        "projectsUrl": "https://flightboard-query-prod.cmo.aws.automotive.cloud/rest/projects",
+        "sections": [
+          {
+            "branch": "cust-release/ms69/047-ford-cdx70x-baseline",
+            "flavor": "FK1",
+            "generatedUrls": [
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK1_cust-release%2Fms69%2F047-ford-cdx70x-baseline&lastx=4&steps=SWCT&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK1_cust-release%2Fms69%2F047-ford-cdx70x-baseline&lastx=4&steps=QAC&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK1_cust-release%2Fms69%2F047-ford-cdx70x-baseline&lastx=4&steps=HIL&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK1_cust-release%2Fms69%2F047-ford-cdx70x-baseline&lastx=4&steps=SIL&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK1_cust-release%2Fms69%2F047-ford-cdx70x-baseline&lastx=4&steps=ECU&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK1_cust-release%2Fms69%2F047-ford-cdx70x-baseline&lastx=4&steps=CPI&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/wpp/#/flightBoard;projects=FORD_FK1_cust-release%2Fms69%2F047-ford-cdx70x-baseline;xHoursBack=150;isToDateNotNow=false"
+            ],
+            "id": "fb-1775129000224-ln0k7o",
+            "lastX": 4,
+            "project": "FORD",
+            "selectedTypes": [
+              "SWCT_full",
+              "QAC_full",
+              "HIL_full",
+              "SIL_full",
+              "ECU_full",
+              "CPI_full"
+            ],
+            "simpleView": true,
+            "xHoursBack": 150
+          },
+          {
+            "branch": "cust-release/ms69/047-ford-cdx70x-baseline",
+            "flavor": "FK2",
+            "generatedUrls": [
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK2_cust-release%2Fms69%2F047-ford-cdx70x-baseline&lastx=4&steps=SWCT&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK2_cust-release%2Fms69%2F047-ford-cdx70x-baseline&lastx=4&steps=QAC&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK2_cust-release%2Fms69%2F047-ford-cdx70x-baseline&lastx=4&steps=HIL&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK2_cust-release%2Fms69%2F047-ford-cdx70x-baseline&lastx=4&steps=SIL&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK2_cust-release%2Fms69%2F047-ford-cdx70x-baseline&lastx=4&steps=ECU&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK2_cust-release%2Fms69%2F047-ford-cdx70x-baseline&lastx=4&steps=CPI&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/wpp/#/flightBoard;projects=FORD_FK2_cust-release%2Fms69%2F047-ford-cdx70x-baseline;xHoursBack=150;isToDateNotNow=false"
+            ],
+            "id": "fb-1775129238334-5sxspt",
+            "lastX": 4,
+            "project": "FORD",
+            "selectedTypes": [
+              "SWCT_full",
+              "QAC_full",
+              "HIL_full",
+              "SIL_full",
+              "ECU_full",
+              "CPI_full"
+            ],
+            "simpleView": true,
+            "xHoursBack": 150
+          }
+        ],
+        "statusBase": "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php",
+        "urls": [
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK1_cust-release%2Fms69%2F047-ford-cdx70x-baseline&lastx=4&steps=SWCT&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK1_cust-release%2Fms69%2F047-ford-cdx70x-baseline&lastx=4&steps=QAC&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK1_cust-release%2Fms69%2F047-ford-cdx70x-baseline&lastx=4&steps=HIL&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK1_cust-release%2Fms69%2F047-ford-cdx70x-baseline&lastx=4&steps=SIL&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK1_cust-release%2Fms69%2F047-ford-cdx70x-baseline&lastx=4&steps=ECU&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK1_cust-release%2Fms69%2F047-ford-cdx70x-baseline&lastx=4&steps=CPI&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/wpp/#/flightBoard;projects=FORD_FK1_cust-release%2Fms69%2F047-ford-cdx70x-baseline;xHoursBack=150;isToDateNotNow=false",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK2_cust-release%2Fms69%2F047-ford-cdx70x-baseline&lastx=4&steps=SWCT&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK2_cust-release%2Fms69%2F047-ford-cdx70x-baseline&lastx=4&steps=QAC&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK2_cust-release%2Fms69%2F047-ford-cdx70x-baseline&lastx=4&steps=HIL&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK2_cust-release%2Fms69%2F047-ford-cdx70x-baseline&lastx=4&steps=SIL&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK2_cust-release%2Fms69%2F047-ford-cdx70x-baseline&lastx=4&steps=ECU&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK2_cust-release%2Fms69%2F047-ford-cdx70x-baseline&lastx=4&steps=CPI&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/wpp/#/flightBoard;projects=FORD_FK2_cust-release%2Fms69%2F047-ford-cdx70x-baseline;xHoursBack=150;isToDateNotNow=false"
+        ]
+      },
+      "id": "slide-1775131515058",
+      "src": "",
+      "subtitle": "FK1, FK2 - Morcoase, Stefania-Eugenia - SWPM",
+      "title": "FORD",
+      "type": "flightboard"
+    },
+    {
+      "duration": 1080,
+      "enabled": true,
+      "flightboard": {
+        "finalized": true,
+        "projectsUrl": "https://flightboard-query-prod.cmo.aws.automotive.cloud/rest/projects",
+        "sections": [
+          {
+            "branch": "cust-release/ms81/001-volvo-qc3-mainbranch",
+            "flavor": "QC3",
+            "generatedUrls": [
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VOLVO_QC3_cust-release%2Fms81%2F001-volvo-qc3-mainbranch&lastx=4&steps=SWCT&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VOLVO_QC3_cust-release%2Fms81%2F001-volvo-qc3-mainbranch&lastx=4&steps=QAC&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VOLVO_QC3_cust-release%2Fms81%2F001-volvo-qc3-mainbranch&lastx=4&steps=HIL&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VOLVO_QC3_cust-release%2Fms81%2F001-volvo-qc3-mainbranch&lastx=4&steps=SIL&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VOLVO_QC3_cust-release%2Fms81%2F001-volvo-qc3-mainbranch&lastx=4&steps=ECU&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VOLVO_QC3_cust-release%2Fms81%2F001-volvo-qc3-mainbranch&lastx=4&steps=CPI&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VOLVO_QC3_cust-release%2Fms81%2F001-volvo-qc3-mainbranch&lastx=4&steps=HIL&buildType=fast",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VOLVO_QC3_cust-release%2Fms81%2F001-volvo-qc3-mainbranch&lastx=4&steps=SIL&buildType=fast",
+              "https://asf42.cmo.aws.automotive.cloud/wpp/#/flightBoard;projects=VOLVO_QC3_cust-release%2Fms81%2F001-volvo-qc3-mainbranch;xHoursBack=150;isToDateNotNow=false"
+            ],
+            "id": "fb-1775131575134-8zhx5v",
+            "lastX": 4,
+            "project": "VOLVO",
+            "selectedTypes": [
+              "SWCT_full",
+              "QAC_full",
+              "HIL_full",
+              "SIL_full",
+              "ECU_full",
+              "CPI_full",
+              "HIL_fast",
+              "SIL_fast"
+            ],
+            "simpleView": true,
+            "xHoursBack": 150
+          },
+          {
+            "branch": "cust-release/ms87/001-volvo-qcg-mainbranch",
+            "flavor": "QCG",
+            "generatedUrls": [
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VOLVO_QCG_cust-release%2Fms87%2F001-volvo-qcg-mainbranch&lastx=4&steps=SWCT&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VOLVO_QCG_cust-release%2Fms87%2F001-volvo-qcg-mainbranch&lastx=4&steps=QAC&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VOLVO_QCG_cust-release%2Fms87%2F001-volvo-qcg-mainbranch&lastx=4&steps=HIL&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VOLVO_QCG_cust-release%2Fms87%2F001-volvo-qcg-mainbranch&lastx=4&steps=SIL&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VOLVO_QCG_cust-release%2Fms87%2F001-volvo-qcg-mainbranch&lastx=4&steps=ECU&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VOLVO_QCG_cust-release%2Fms87%2F001-volvo-qcg-mainbranch&lastx=4&steps=CPI&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VOLVO_QCG_cust-release%2Fms87%2F001-volvo-qcg-mainbranch&lastx=4&steps=SIL&buildType=fast",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VOLVO_QCG_cust-release%2Fms87%2F001-volvo-qcg-mainbranch&lastx=4&steps=HIL&buildType=fast",
+              "https://asf42.cmo.aws.automotive.cloud/wpp/#/flightBoard;projects=VOLVO_QCG_cust-release%2Fms87%2F001-volvo-qcg-mainbranch;xHoursBack=150;isToDateNotNow=false"
+            ],
+            "id": "fb-1775131802746-5rbaf6",
+            "lastX": 4,
+            "project": "VOLVO",
+            "selectedTypes": [
+              "SWCT_full",
+              "QAC_full",
+              "HIL_full",
+              "SIL_full",
+              "ECU_full",
+              "CPI_full",
+              "SIL_fast",
+              "HIL_fast"
+            ],
+            "simpleView": true,
+            "xHoursBack": 150
+          }
+        ],
+        "statusBase": "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php",
+        "urls": [
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VOLVO_QC3_cust-release%2Fms81%2F001-volvo-qc3-mainbranch&lastx=4&steps=SWCT&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VOLVO_QC3_cust-release%2Fms81%2F001-volvo-qc3-mainbranch&lastx=4&steps=QAC&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VOLVO_QC3_cust-release%2Fms81%2F001-volvo-qc3-mainbranch&lastx=4&steps=HIL&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VOLVO_QC3_cust-release%2Fms81%2F001-volvo-qc3-mainbranch&lastx=4&steps=SIL&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VOLVO_QC3_cust-release%2Fms81%2F001-volvo-qc3-mainbranch&lastx=4&steps=ECU&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VOLVO_QC3_cust-release%2Fms81%2F001-volvo-qc3-mainbranch&lastx=4&steps=CPI&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VOLVO_QC3_cust-release%2Fms81%2F001-volvo-qc3-mainbranch&lastx=4&steps=HIL&buildType=fast",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VOLVO_QC3_cust-release%2Fms81%2F001-volvo-qc3-mainbranch&lastx=4&steps=SIL&buildType=fast",
+          "https://asf42.cmo.aws.automotive.cloud/wpp/#/flightBoard;projects=VOLVO_QC3_cust-release%2Fms81%2F001-volvo-qc3-mainbranch;xHoursBack=150;isToDateNotNow=false",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VOLVO_QCG_cust-release%2Fms87%2F001-volvo-qcg-mainbranch&lastx=4&steps=SWCT&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VOLVO_QCG_cust-release%2Fms87%2F001-volvo-qcg-mainbranch&lastx=4&steps=QAC&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VOLVO_QCG_cust-release%2Fms87%2F001-volvo-qcg-mainbranch&lastx=4&steps=HIL&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VOLVO_QCG_cust-release%2Fms87%2F001-volvo-qcg-mainbranch&lastx=4&steps=SIL&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VOLVO_QCG_cust-release%2Fms87%2F001-volvo-qcg-mainbranch&lastx=4&steps=ECU&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VOLVO_QCG_cust-release%2Fms87%2F001-volvo-qcg-mainbranch&lastx=4&steps=CPI&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VOLVO_QCG_cust-release%2Fms87%2F001-volvo-qcg-mainbranch&lastx=4&steps=SIL&buildType=fast",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=VOLVO_QCG_cust-release%2Fms87%2F001-volvo-qcg-mainbranch&lastx=4&steps=HIL&buildType=fast",
+          "https://asf42.cmo.aws.automotive.cloud/wpp/#/flightBoard;projects=VOLVO_QCG_cust-release%2Fms87%2F001-volvo-qcg-mainbranch;xHoursBack=150;isToDateNotNow=false"
+        ]
+      },
+      "id": "slide-1775132275091",
+      "src": "",
+      "subtitle": "QC3, QCG - Mitrofan, Adrian-Ioan - SWPM",
+      "title": "VOLVO",
+      "type": "flightboard"
+    },
+    {
+      "duration": 2400,
+      "enabled": true,
+      "flightboard": {
+        "finalized": true,
+        "projectsUrl": "https://flightboard-query-prod.cmo.aws.automotive.cloud/rest/projects",
+        "sections": [
+          {
+            "branch": "cust-release/ms69/162-ford-2v6-mlc70-9",
+            "flavor": "2V6",
+            "generatedUrls": [
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_2V6_cust-release%2Fms69%2F162-ford-2v6-mlc70-9&lastx=4&steps=SWCT&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_2V6_cust-release%2Fms69%2F162-ford-2v6-mlc70-9&lastx=4&steps=QAC&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_2V6_cust-release%2Fms69%2F162-ford-2v6-mlc70-9&lastx=4&steps=HIL&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_2V6_cust-release%2Fms69%2F162-ford-2v6-mlc70-9&lastx=4&steps=SIL&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_2V6_cust-release%2Fms69%2F162-ford-2v6-mlc70-9&lastx=4&steps=ECU&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_2V6_cust-release%2Fms69%2F162-ford-2v6-mlc70-9&lastx=4&steps=CPI&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/wpp/#/flightBoard;projects=FORD_2V6_cust-release%2Fms69%2F162-ford-2v6-mlc70-9;xHoursBack=150;isToDateNotNow=false"
+            ],
+            "id": "fb-1775132943038-796udn",
+            "lastX": 4,
+            "project": "FORD",
+            "selectedTypes": [
+              "SWCT_full",
+              "QAC_full",
+              "HIL_full",
+              "SIL_full",
+              "ECU_full",
+              "CPI_full"
+            ],
+            "simpleView": true,
+            "xHoursBack": 150
+          },
+          {
+            "branch": "cust-release/ms69/085-ford-cx48xe-2v6-baseline",
+            "flavor": "2V6",
+            "generatedUrls": [
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_2V6_cust-release%2Fms69%2F085-ford-cx48xe-2v6-baseline&lastx=4&steps=SWCT&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_2V6_cust-release%2Fms69%2F085-ford-cx48xe-2v6-baseline&lastx=4&steps=QAC&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_2V6_cust-release%2Fms69%2F085-ford-cx48xe-2v6-baseline&lastx=4&steps=SIL&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_2V6_cust-release%2Fms69%2F085-ford-cx48xe-2v6-baseline&lastx=4&steps=ECU&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_2V6_cust-release%2Fms69%2F085-ford-cx48xe-2v6-baseline&lastx=4&steps=CPI&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_2V6_cust-release%2Fms69%2F085-ford-cx48xe-2v6-baseline&lastx=4&steps=HIL&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/wpp/#/flightBoard;projects=FORD_2V6_cust-release%2Fms69%2F085-ford-cx48xe-2v6-baseline;xHoursBack=150;isToDateNotNow=false"
+            ],
+            "id": "fb-1775133301013-42djm7",
+            "lastX": 4,
+            "project": "FORD",
+            "selectedTypes": [
+              "SWCT_full",
+              "QAC_full",
+              "SIL_full",
+              "ECU_full",
+              "CPI_full",
+              "HIL_full"
+            ],
+            "simpleView": true,
+            "xHoursBack": 150
+          },
+          {
+            "branch": "cust-release/ms69/133-ford-cx483-2v9-baseline",
+            "flavor": "2V9",
+            "generatedUrls": [
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_2V9_cust-release%2Fms69%2F133-ford-cx483-2v9-baseline&lastx=4&steps=SWCT&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_2V9_cust-release%2Fms69%2F133-ford-cx483-2v9-baseline&lastx=4&steps=QAC&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_2V9_cust-release%2Fms69%2F133-ford-cx483-2v9-baseline&lastx=4&steps=HIL&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_2V9_cust-release%2Fms69%2F133-ford-cx483-2v9-baseline&lastx=4&steps=SIL&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_2V9_cust-release%2Fms69%2F133-ford-cx483-2v9-baseline&lastx=4&steps=ECU&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_2V9_cust-release%2Fms69%2F133-ford-cx483-2v9-baseline&lastx=4&steps=CPI&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_2V9_cust-release%2Fms69%2F133-ford-cx483-2v9-baseline&lastx=4&steps=SIL&buildType=fast",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_2V9_cust-release%2Fms69%2F133-ford-cx483-2v9-baseline&lastx=4&steps=HIL&buildType=fast",
+              "https://asf42.cmo.aws.automotive.cloud/wpp/#/flightBoard;projects=FORD_2V9_cust-release%2Fms69%2F133-ford-cx483-2v9-baseline;xHoursBack=150;isToDateNotNow=false"
+            ],
+            "id": "fb-1775133412063-4zb85g",
+            "lastX": 4,
+            "project": "FORD",
+            "selectedTypes": [
+              "SWCT_full",
+              "QAC_full",
+              "HIL_full",
+              "SIL_full",
+              "ECU_full",
+              "CPI_full",
+              "SIL_fast",
+              "HIL_fast"
+            ],
+            "simpleView": true,
+            "xHoursBack": 150
+          },
+          {
+            "branch": "cust-release/ms69/145-ford-fk3-baseline",
+            "flavor": "FK3",
+            "generatedUrls": [
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK3_cust-release%2Fms69%2F145-ford-fk3-baseline&lastx=4&steps=SWCT&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK3_cust-release%2Fms69%2F145-ford-fk3-baseline&lastx=4&steps=QAC&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK3_cust-release%2Fms69%2F145-ford-fk3-baseline&lastx=4&steps=SIL&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK3_cust-release%2Fms69%2F145-ford-fk3-baseline&lastx=4&steps=ECU&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK3_cust-release%2Fms69%2F145-ford-fk3-baseline&lastx=4&steps=CPI&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK3_cust-release%2Fms69%2F145-ford-fk3-baseline&lastx=4&steps=HIL&buildType=fast",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK3_cust-release%2Fms69%2F145-ford-fk3-baseline&lastx=4&steps=SIL&buildType=fast",
+              "https://asf42.cmo.aws.automotive.cloud/wpp/#/flightBoard;projects=FORD_FK3_cust-release%2Fms69%2F145-ford-fk3-baseline;xHoursBack=150;isToDateNotNow=false"
+            ],
+            "id": "fb-1775134326391-gnkwb7",
+            "lastX": 4,
+            "project": "FORD",
+            "selectedTypes": [
+              "SWCT_full",
+              "QAC_full",
+              "SIL_full",
+              "ECU_full",
+              "CPI_full",
+              "HIL_fast",
+              "SIL_fast"
+            ],
+            "simpleView": true,
+            "xHoursBack": 150
+          },
+          {
+            "branch": "cust-release/ms69/146-ford-fk4-baseline",
+            "flavor": "FK4",
+            "generatedUrls": [
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK4_cust-release%2Fms69%2F146-ford-fk4-baseline&lastx=4&steps=SWCT&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK4_cust-release%2Fms69%2F146-ford-fk4-baseline&lastx=4&steps=QAC&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK4_cust-release%2Fms69%2F146-ford-fk4-baseline&lastx=4&steps=HIL&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK4_cust-release%2Fms69%2F146-ford-fk4-baseline&lastx=4&steps=SIL&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK4_cust-release%2Fms69%2F146-ford-fk4-baseline&lastx=4&steps=ECU&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK4_cust-release%2Fms69%2F146-ford-fk4-baseline&lastx=4&steps=CPI&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK4_cust-release%2Fms69%2F146-ford-fk4-baseline&lastx=4&steps=SIL&buildType=fast",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK4_cust-release%2Fms69%2F146-ford-fk4-baseline&lastx=4&steps=HIL&buildType=fast",
+              "https://asf42.cmo.aws.automotive.cloud/wpp/#/flightBoard;projects=FORD_FK4_cust-release%2Fms69%2F146-ford-fk4-baseline;xHoursBack=150;isToDateNotNow=false"
+            ],
+            "id": "fb-1775134409339-k43rli",
+            "lastX": 4,
+            "project": "FORD",
+            "selectedTypes": [
+              "SWCT_full",
+              "QAC_full",
+              "HIL_full",
+              "SIL_full",
+              "ECU_full",
+              "CPI_full",
+              "SIL_fast",
+              "HIL_fast"
+            ],
+            "simpleView": true,
+            "xHoursBack": 150
+          }
+        ],
+        "statusBase": "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php",
+        "urls": [
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_2V6_cust-release%2Fms69%2F162-ford-2v6-mlc70-9&lastx=4&steps=SWCT&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_2V6_cust-release%2Fms69%2F162-ford-2v6-mlc70-9&lastx=4&steps=QAC&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_2V6_cust-release%2Fms69%2F162-ford-2v6-mlc70-9&lastx=4&steps=HIL&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_2V6_cust-release%2Fms69%2F162-ford-2v6-mlc70-9&lastx=4&steps=SIL&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_2V6_cust-release%2Fms69%2F162-ford-2v6-mlc70-9&lastx=4&steps=ECU&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_2V6_cust-release%2Fms69%2F162-ford-2v6-mlc70-9&lastx=4&steps=CPI&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/wpp/#/flightBoard;projects=FORD_2V6_cust-release%2Fms69%2F162-ford-2v6-mlc70-9;xHoursBack=150;isToDateNotNow=false",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_2V6_cust-release%2Fms69%2F085-ford-cx48xe-2v6-baseline&lastx=4&steps=SWCT&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_2V6_cust-release%2Fms69%2F085-ford-cx48xe-2v6-baseline&lastx=4&steps=QAC&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_2V6_cust-release%2Fms69%2F085-ford-cx48xe-2v6-baseline&lastx=4&steps=SIL&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_2V6_cust-release%2Fms69%2F085-ford-cx48xe-2v6-baseline&lastx=4&steps=ECU&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_2V6_cust-release%2Fms69%2F085-ford-cx48xe-2v6-baseline&lastx=4&steps=CPI&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_2V6_cust-release%2Fms69%2F085-ford-cx48xe-2v6-baseline&lastx=4&steps=HIL&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/wpp/#/flightBoard;projects=FORD_2V6_cust-release%2Fms69%2F085-ford-cx48xe-2v6-baseline;xHoursBack=150;isToDateNotNow=false",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_2V9_cust-release%2Fms69%2F133-ford-cx483-2v9-baseline&lastx=4&steps=SWCT&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_2V9_cust-release%2Fms69%2F133-ford-cx483-2v9-baseline&lastx=4&steps=QAC&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_2V9_cust-release%2Fms69%2F133-ford-cx483-2v9-baseline&lastx=4&steps=HIL&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_2V9_cust-release%2Fms69%2F133-ford-cx483-2v9-baseline&lastx=4&steps=SIL&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_2V9_cust-release%2Fms69%2F133-ford-cx483-2v9-baseline&lastx=4&steps=ECU&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_2V9_cust-release%2Fms69%2F133-ford-cx483-2v9-baseline&lastx=4&steps=CPI&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_2V9_cust-release%2Fms69%2F133-ford-cx483-2v9-baseline&lastx=4&steps=SIL&buildType=fast",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_2V9_cust-release%2Fms69%2F133-ford-cx483-2v9-baseline&lastx=4&steps=HIL&buildType=fast",
+          "https://asf42.cmo.aws.automotive.cloud/wpp/#/flightBoard;projects=FORD_2V9_cust-release%2Fms69%2F133-ford-cx483-2v9-baseline;xHoursBack=150;isToDateNotNow=false",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK3_cust-release%2Fms69%2F145-ford-fk3-baseline&lastx=4&steps=SWCT&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK3_cust-release%2Fms69%2F145-ford-fk3-baseline&lastx=4&steps=QAC&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK3_cust-release%2Fms69%2F145-ford-fk3-baseline&lastx=4&steps=SIL&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK3_cust-release%2Fms69%2F145-ford-fk3-baseline&lastx=4&steps=ECU&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK3_cust-release%2Fms69%2F145-ford-fk3-baseline&lastx=4&steps=CPI&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK3_cust-release%2Fms69%2F145-ford-fk3-baseline&lastx=4&steps=HIL&buildType=fast",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK3_cust-release%2Fms69%2F145-ford-fk3-baseline&lastx=4&steps=SIL&buildType=fast",
+          "https://asf42.cmo.aws.automotive.cloud/wpp/#/flightBoard;projects=FORD_FK3_cust-release%2Fms69%2F145-ford-fk3-baseline;xHoursBack=150;isToDateNotNow=false",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK4_cust-release%2Fms69%2F146-ford-fk4-baseline&lastx=4&steps=SWCT&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK4_cust-release%2Fms69%2F146-ford-fk4-baseline&lastx=4&steps=QAC&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK4_cust-release%2Fms69%2F146-ford-fk4-baseline&lastx=4&steps=HIL&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK4_cust-release%2Fms69%2F146-ford-fk4-baseline&lastx=4&steps=SIL&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK4_cust-release%2Fms69%2F146-ford-fk4-baseline&lastx=4&steps=ECU&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK4_cust-release%2Fms69%2F146-ford-fk4-baseline&lastx=4&steps=CPI&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK4_cust-release%2Fms69%2F146-ford-fk4-baseline&lastx=4&steps=SIL&buildType=fast",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=FORD_FK4_cust-release%2Fms69%2F146-ford-fk4-baseline&lastx=4&steps=HIL&buildType=fast",
+          "https://asf42.cmo.aws.automotive.cloud/wpp/#/flightBoard;projects=FORD_FK4_cust-release%2Fms69%2F146-ford-fk4-baseline;xHoursBack=150;isToDateNotNow=false"
+        ]
+      },
+      "id": "slide-1775133392148",
+      "src": "",
+      "subtitle": "2V6, 2V9, FK3, FK4 - Dudu Alina - SWPM",
+      "title": "FORD",
+      "type": "flightboard"
+    },
+    {
+      "duration": 480,
+      "enabled": true,
+      "flightboard": {
+        "finalized": true,
+        "projectsUrl": "https://flightboard-query-prod.cmo.aws.automotive.cloud/rest/projects",
+        "sections": [
+          {
+            "branch": "cust-release/ms71/063-bmw-mkc2-gen2-5-baseline",
+            "flavor": "AC4",
+            "generatedUrls": [
+              "https://asf42.cmo.aws.automotive.cloud/wpp/#/flightBoard;projects=BMW_AC4_cust-release%2Fms71%2F063-bmw-mkc2-gen2-5-baseline;xHoursBack=150;isToDateNotNow=false"
+            ],
+            "id": "fb-1775142807615-ahavc5",
+            "lastX": 4,
+            "project": "BMW",
+            "selectedTypes": [],
+            "simpleView": true,
+            "xHoursBack": 150
+          },
+          {
+            "branch": "cust-release/ms71/111-bmw-gen2-5-adk-baseline",
+            "flavor": "ADK",
+            "generatedUrls": [
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=BMW_ADK_cust-release%2Fms71%2F111-bmw-gen2-5-adk-baseline&lastx=4&steps=SWCT&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=BMW_ADK_cust-release%2Fms71%2F111-bmw-gen2-5-adk-baseline&lastx=4&steps=QAC&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=BMW_ADK_cust-release%2Fms71%2F111-bmw-gen2-5-adk-baseline&lastx=4&steps=ECU&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=BMW_ADK_cust-release%2Fms71%2F111-bmw-gen2-5-adk-baseline&lastx=4&steps=HIL&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=BMW_ADK_cust-release%2Fms71%2F111-bmw-gen2-5-adk-baseline&lastx=4&steps=SIL&buildType=full",
+              "https://asf42.cmo.aws.automotive.cloud/wpp/#/flightBoard;projects=BMW_ADK_cust-release%2Fms71%2F111-bmw-gen2-5-adk-baseline;xHoursBack=150;isToDateNotNow=false"
+            ],
+            "id": "fb-1775142860848-aedmpl",
+            "lastX": 4,
+            "project": "BMW",
+            "selectedTypes": [
+              "SWCT_full",
+              "QAC_full",
+              "ECU_full",
+              "HIL_full",
+              "SIL_full"
+            ],
+            "simpleView": true,
+            "xHoursBack": 150
+          },
+          {
+            "branch": "cust-release/ms17/001-bmw-2611-az9-r450",
+            "flavor": "AZ9",
+            "generatedUrls": [
+              "https://asf42.cmo.aws.automotive.cloud/wpp/#/flightBoard;projects=BMW_AZ9_cust-release%2Fms17%2F001-bmw-2611-az9-r450;xHoursBack=350;isToDateNotNow=false"
+            ],
+            "id": "fb-1775142957760-64tik9",
+            "lastX": 4,
+            "project": "BMW",
+            "selectedTypes": [],
+            "simpleView": true,
+            "xHoursBack": 8000
+          }
+        ],
+        "statusBase": "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php",
+        "urls": [
+          "https://asf42.cmo.aws.automotive.cloud/wpp/#/flightBoard;projects=BMW_AC4_cust-release%2Fms71%2F063-bmw-mkc2-gen2-5-baseline;xHoursBack=150;isToDateNotNow=false",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=BMW_ADK_cust-release%2Fms71%2F111-bmw-gen2-5-adk-baseline&lastx=4&steps=SWCT&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=BMW_ADK_cust-release%2Fms71%2F111-bmw-gen2-5-adk-baseline&lastx=4&steps=QAC&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=BMW_ADK_cust-release%2Fms71%2F111-bmw-gen2-5-adk-baseline&lastx=4&steps=ECU&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=BMW_ADK_cust-release%2Fms71%2F111-bmw-gen2-5-adk-baseline&lastx=4&steps=HIL&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/PublicBuildStatus/lastx.php?project=BMW_ADK_cust-release%2Fms71%2F111-bmw-gen2-5-adk-baseline&lastx=4&steps=SIL&buildType=full",
+          "https://asf42.cmo.aws.automotive.cloud/wpp/#/flightBoard;projects=BMW_ADK_cust-release%2Fms71%2F111-bmw-gen2-5-adk-baseline;xHoursBack=150;isToDateNotNow=false",
+          "https://asf42.cmo.aws.automotive.cloud/wpp/#/flightBoard;projects=BMW_AZ9_cust-release%2Fms17%2F001-bmw-2611-az9-r450;xHoursBack=350;isToDateNotNow=false"
+        ]
+      },
+      "id": "slide-1775143146178",
+      "src": "",
+      "subtitle": "AC4, ADK, AZ9 - Adrian Ban - SWPM",
+      "title": "BMW",
+      "type": "flightboard"
+    }
+  ]
+}
